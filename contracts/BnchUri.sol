@@ -16,7 +16,7 @@ contract BenchTrade is ERC721, ERC721URIStorage, Ownable {
     {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://benchtradedev.github.io/bench-trade/api/v1/";
+        return "https://benchtradedev.github.io/bench-trade/api/";
     }
 
     function safeMint(address to, string memory uri)
